@@ -18,8 +18,7 @@ Gerenciador de tarefas diárias desenvolvido após a conclusão da trilha base d
 
 ## 🖱️ Visualização
 Para seu conforto (e caso seja necessário) você pode fazer o download uma pequena demonstração dessa aplicação cliando [aqui](https://github.com/rafaelachinaglia/to-do-list/blob/main/media/projeto-todo.mp4). 
-
-//clique no link e após isso clique em download no lado direito da tela.
+<p>//clique no link e após isso clique em download no lado direito da tela.</p>
 <br />
 
 ## 👸 Autora
