@@ -29,4 +29,4 @@ Caso tenha interesse, você também pode me encontrar no LinkedIn [aqui](https:/
 <br />
 <br />
 <br />
-Atenciosamente, Rafaela Chinaglia Ferreira 👑
+Atenciosamente, Rafaela Chinaglia Ferreira 🧚🏻‍♀️
