@@ -1,0 +1,25 @@
+
+<div class="container caixa-adiciona-tarefa">
+  <div class="adiciona-tarefa">
+    <form #form="ngForm" (ngSubmit)="novaTarefa()">
+      <h2 class="title is-6">Nova Tarefa</h2>
+
+      <div class="field is-grouped" style="margin: 0">
+        <p class="control is-expanded">
+          <input
+           [(ngModel)]="tarefa.descricao"
+            required
+            name="text"
+            class="input"
+            type="text"
+            placeholder="Insira sua pendência..."
+          />
+        </p>
+        <p class="control">
+          <button type="submit" class="button alt-gradient-button">
+            <i class="material-icons">add_circle_outline</i>
+          </button>
+        </p>
+      </div>
+
+

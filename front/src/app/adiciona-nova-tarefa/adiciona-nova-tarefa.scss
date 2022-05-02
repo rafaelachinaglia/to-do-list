@@ -1,0 +1,25 @@
+
+
+
+.container{
+  max-width: 600px;
+}
+
+// .caixa-adiciona-tarefa {
+//   // position: sticky;
+//   // top: 0;
+//   // z-index: 1;
+// }
+
+.adiciona-tarefa{
+  padding: 20px;
+  background: rgba( 255, 255, 255, 0.8 );
+  box-shadow: 0 8px 10px 0 rgba( 20, 38, 80, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 4px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  margin-top: -54px;
+
+}
+

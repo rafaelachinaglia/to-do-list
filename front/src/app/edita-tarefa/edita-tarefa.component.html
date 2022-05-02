@@ -1,0 +1,40 @@
+<section class="container-edit">
+
+  <div class="modal-card content">
+
+    <h1 class="title is-3">Edite sua tarefa:</h1>
+
+
+        <form #form="ngForm">
+            <div class="field">
+                <div class="control">
+                    <input
+                        type="text"
+                        class="input"
+                        [(ngModel)]="task.descricao"
+                        name="text"
+                        required  >
+                </div>
+            </div>
+
+            <br>
+
+            <div class="field is-grouped is-grouped-right">
+                <div class="control">
+                    <button type="button" class="button is-light" (click)="fechaTarefa()">
+                      <i class="material-icons">close</i>
+                    </button>
+                </div>
+
+                <div class="control">
+                    <button type="submit" class="button alt-gradient-button" (click)="atualizaTarefa()">
+                        <i class="material-icons">save</i>
+                    </button>
+                </div>
+            </div>
+        </form>
+
+    </div>
+
+</section>
+

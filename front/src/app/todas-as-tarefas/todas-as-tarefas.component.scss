@@ -1,0 +1,100 @@
+.container{
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+  max-width: 600px;
+  font-size: 15px;
+  padding: 35px 15px;
+  cursor: pointer;
+  position: relative;
+  border-bottom: 1px solid #eee;
+
+}
+
+
+ .checkbox{
+  background-color: unset ;
+  display: flex;
+  flex-shrink: 0;
+  border: 2px solid #eee;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  margin-right: 20px;
+  transition: background-color 0.2s ;
+
+
+
+  i.material-icons{
+    font-size: 19px;
+    margin: auto;
+    color: rgb(74, 74, 74);
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+
+}
+
+.checkbox:hover {
+  background: #eee;
+
+  i.material-icons{
+    opacity: 0.28;
+  }
+}
+
+.container .controles-todo {
+  position: absolute;
+  bottom: 0;
+  right: 5px;
+  display: flex;
+  opacity: 0;
+
+  visibility: hidden;
+  transform: translateY(03px);
+  transition: opacity 0.2s, visibility 0.2s, transform 0.2s;
+}
+
+.container:hover .controles-todo{
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0.4s;
+  transform: translateY(0);
+}
+
+
+.controles-todo .botoes-controles-todo {
+  display: flex;
+  margin-bottom: 1px;
+  background: #f5f7f5 ;
+  border: 0.5px solid white;
+  border-radius: 5px;
+  padding: 7px 10px;
+
+
+
+  i.material-icons{
+    font-size: 19px;
+  }
+
+  &:hover{
+    background: #eee;
+
+  }
+
+  &:active{
+    background: #f5f7f5;
+  }
+
+}
+
+.mudarCor {
+  background: #f2296f;
+  border: #f2296f;
+
+  i.material-icons{
+    opacity: 1;
+  }
+  }
+
+

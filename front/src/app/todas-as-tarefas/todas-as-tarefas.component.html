@@ -1,0 +1,60 @@
+<section class="tarefasNaoConcluidas"  *ngFor="let todo of todasTarefas">
+
+    <div class="container" *ngIf="todo.status == false">
+
+         <button class="checkbox" (click)="concluiTarefa(todo.id, todo.status)" >
+
+        <i class="material-icons">done</i>
+
+      </button>
+
+
+    <div class="todo-texto">
+      {{ todo.descricao }}
+    </div>
+
+    <div class="controles-todo" (click)="$event.stopPropagation()" >
+
+     <button class="botoes-controles-todo" appToolTip="Editar" data-target="modal-js-example" routerLink="/editar/{{todo.id}}" >
+        <i class="material-icons"> edit </i>
+     </button>
+
+     <button class="botoes-controles-todo" appToolTip="Deletar" (click)="deleteTask(todo.id)" >
+      <i class="material-icons"> delete </i>
+     </button>
+
+      </div>
+
+  </div>
+
+</section>
+
+<section class="tarefasConcluidas"  *ngFor="let todo of todasTarefas">
+
+  <div class="container" *ngIf="todo.status == true">
+
+      <button class="checkbox" (click)="concluiTarefa(todo.id, todo.status)" [class.mudarCor]="todo.status == true">
+
+        <i class="material-icons">done</i>
+
+      </button>
+
+  <div class="todo-texto">
+    {{ todo.descricao }}
+  </div>
+
+  <div class="controles-todo" (click)="$event.stopPropagation()" >
+
+   <button class="botoes-controles-todo" appToolTip="Editar" data-target="modal-js-example" routerLink="/editar/{{todo.id}}" >
+      <i class="material-icons"> edit </i>
+   </button>
+
+   <button class="botoes-controles-todo" appToolTip="Deletar" (click)="deleteTask(todo.id)" >
+    <i class="material-icons"> delete </i>
+   </button>
+
+    </div>
+
+</div>
+
+</section>
