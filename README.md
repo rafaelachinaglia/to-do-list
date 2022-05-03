@@ -11,7 +11,8 @@ Gerenciador de tarefas diárias desenvolvido após a conclusão da trilha base d
 
  ## 🧰 Tecnologias
  As seguintes ferramentas foram usadas na construção do projeto:
-* Angular
+* Angular/TypeScript
+* HTML & SCSS
 * C#
 * Banco de dados SQL Server
 <br />
